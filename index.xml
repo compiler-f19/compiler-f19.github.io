@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Compiler Design</title>
-    <link>/</link>
+    <link>https://compiler-f19.github.io/</link>
     <description>Recent content in Introduction on Compiler Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://compiler-f19.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Syllabus</title>
-      <link>/docs/syllabus/</link>
+      <link>https://compiler-f19.github.io/docs/syllabus/</link>
       <pubDate>Mon, 17 Jun 2019 23:30:31 +0800</pubDate>
       
-      <guid>/docs/syllabus/</guid>
+      <guid>https://compiler-f19.github.io/docs/syllabus/</guid>
       <description>Overview This course is intended to explore the principal ideas and techniques of compiler construction. Topics include lexical analysis, syntax analysis including LL and LR parsers, type checking, run-time environments, symbol tables, code generation, and compiler-construction tools.
 This course aims to give you a solid foundation in the theory of compiler construction as well as the experience of building a compiler. Much of what you have learned about algorithms and data structures will come to bear as you study and implement the various components of a compiler.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/guide/</link>
+      <link>https://compiler-f19.github.io/docs/guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/guide/</guid>
+      <guid>https://compiler-f19.github.io/docs/guide/</guid>
       <description>課程導覽  介紹 組織導覽 加入流程  介紹 我們在這學期做了一個新嘗試，將作業的撰寫、繳交與 Git 結合，並將課程網站放上 GitHub 上使用，目的是提高各位的修課體驗，並嘗試與現今資訊世界的做事流程接軌。
  如果有怎麼問題的話，也請各位不要害怕，到討論區發問，你是修課生，你會有的問題其他學生也會有，幫助你自己的同時也是在幫助其他同學，也可以讓授課老師知道課程有什麼事情需要調整。 我們做的改動相較過去帶來不少好處，在以下列出幾點讓大家更能理解這些背後的原因。
  GitHub 網站的穩定性比 E3 高 身為交大的學生可能體驗過在作業死線來臨前 1 分鐘繳交作業，e3 直接直接死掉不回應的情況，或是在期末考週學校 E3 伺服器壞掉讓各位無法瀏覽。我們把課程的網站跟作業繳交直接託管在 GitHub 這種國際型企業上能大幅提升網站穩定性，讓大家能隨時瀏覽相關內容。我們也會利用 GitHub 提供的網站紀錄判斷是否有因為伺服器下線讓作業無法繳交的情況，直接延長死線的時間。
