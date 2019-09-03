@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide | Compiler Design</title>
+
+
+<link rel="stylesheet" href="/book.min.0c67bd5721bdd8a91d531331dee1004552bf5554c721e7222cb5c7a6263f7862.css" integrity="sha256-DGe9VyG92KkdUxMx3uEARVK/VVTHIeciLLXHpiY/eGI=">
+
+
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="">Compiler Design</a>
+</h2>
+
+
+
+
+
+
+    
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2fguide\2f "] {
+      color: #004ed0;
+  }
+  </style>
+
+<ul>
+<li><a href="/">Introduction</a></li>
+<li><a href="/docs/syllabus/">Syllabus</a></li>
+<li><a href="/docs/guide/">課程導覽</a><br /></li>
+</ul>
+
+
+
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>Guide</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="課程導覽">課程導覽</h1>
+
+<ul>
+<li><a href="#介紹">介紹</a></li>
+<li><a href="#組織導覽">組織導覽</a></li>
+<li><a href="#加入流程">加入流程</a></li>
+</ul>
+
+<h3 id="介紹">介紹</h3>
+
+<p>我們在這學期做了一個新嘗試，將作業的撰寫、繳交與 Git 結合，並將課程網站放上 GitHub 上使用，目的是提高各位的修課體驗，並嘗試與現今資訊世界的做事流程接軌。</p>
+
+<blockquote>
+<p>如果有怎麼問題的話，也請各位不要害怕，到討論區發問，你是修課生，你會有的問題其他學生也會有，幫助你自己的同時也是在幫助其他同學，也可以讓授課老師知道課程有什麼事情需要調整。
+我們做的改動相較過去帶來不少好處，在以下列出幾點讓大家更能理解這些背後的原因。</p>
+</blockquote>
+
+<h5 id="github-網站的穩定性比-e3-高">GitHub 網站的穩定性比 E3 高</h5>
+
+<p>身為交大的學生可能體驗過在作業死線來臨前 1 分鐘繳交作業，e3 直接直接死掉不回應的情況，或是在期末考週學校 E3 伺服器壞掉讓各位無法瀏覽。我們把課程的網站跟作業繳交直接託管在 GitHub 這種國際型企業上能大幅提升網站穩定性，讓大家能隨時瀏覽相關內容。我們也會利用 GitHub 提供的網站紀錄判斷是否有因為伺服器下線讓作業無法繳交的情況，直接延長死線的時間。</p>
+
+<h5 id="github-當作你的遠端備份">GitHub 當作你的遠端備份</h5>
+
+<p>你只需要一個指令就能將程式碼放上 GitHub，讓你能很簡單的備份自己的作業，降低誤刪自己作業檔案的風險。</p>
+
+<h5 id="強迫各位使用版本控管">強迫各位使用版本控管</h5>
+
+<p>或許你各位上大學唸資工從來沒聽過版本控管，或是單純沒機會使用。沒關係，這堂課程會讓你最低限度透過 Git 來練習版本控管，你可以拿來這個東西來輔助自己的未來的專案開發流程。
+可能一開始用 Git 會有點不方便，甚至多餘，但你都已經繳學費來學習了，不妨多花點新力來學習一些可以輔助你工作的工具吧！</p>
+
+<h3 id="組織導覽">組織導覽</h3>
+
+<p>我們把這個課程中所有內容都放在一個組織下: <a target="_blank" href="https://github.com/compiler-f19">compiler-f19</a></p>
+
+<pre><code class="language-text">+ compiler-f19             ——  課程開的 GitHub Organization
+    + Discussion           ——  討論版
+    + Compiler-f19         ——  課程內容
+    + Compiler-f19-private ——  不公開的教學內容
+</code></pre>
+
+<p>這是我們所開放，修課生必須要知道的 Repo (Repository)。
+而 <code>Compiler-f19</code>，<code>Compiler-f19-private</code> 兩個 Repo 的內容有什麼差別？後者的內容屬於修課生才能擁有的內容，比如：每次作業的邀請代碼、考古題連結、整理好的某些筆記內容、考試的答案解析。必須要申請加入組織才有權限瀏覽。</p>
+
+<h1 id="加入流程">加入流程</h1>
+
+<h3 id="辦-github-帳號">辦 GitHub 帳號</h3>
+
+<p>請注意，這個帳號並不會是課程帳號，你只是在 GitHub 上申請一個代表你個人的帳號，並且暫時加入我們的課程組織而已。這個帳號會一定程度的代表你個人，建議先仔細思考好他的名稱。
+比如說 <code>nctuGreatAgain</code>, <code>UCMaoChung5566</code>, <code>dutyForOurCountry</code> 都是不推薦的名稱。</p>
+
+<p><a href="https://github.com/join" target="_blank"><figure>
+    <img src="/img/guide/join-github.png" height="150"/> 
+</figure>
+</a></p>
+
+<p>申請 GitHub 帳號連結： <a href="https://github.com/join" target="_blank">點我</a></p>
+
+<h3 id="填表單">填表單</h3>
+
+<p>請在我們做的 Google 表單中填上你的資料 (<strong>必須要登入</strong>)，讓我們能夠將各位同學的 GitHub 帳號跟真實身份關聯在一起，在助教收到表單並確認為修課生後，會將各位填入帳號的加入組織，而GitHub 網站會依此發出邀請信。各位收到信，按完接受後就算正式加入這堂課程了。👍</p>
+
+<blockquote>
+<p>加退選期限過後會再用修課名單來更新組織裡的學生，不幸沒選上卻想旁聽留在組織內的同學請知會老師與助教一聲。</p>
+</blockquote>
+
+<p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdb_dIug9nvqLnEnso5gETCpXchs7yaxA4fQWCebWTKahP1CA/viewform?entry.749445582=%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8&entry.2005992401=%E8%B3%87%E5%B7%A5%E7%B3%BB&entry.361766246=10"><figure>
+    <img src="/img/guide/apply-google-form.png" height="150"/> 
+</figure>
+</a></p>
+
+<p>預先填入欄位的 Google 連結：<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdb_dIug9nvqLnEnso5gETCpXchs7yaxA4fQWCebWTKahP1CA/viewform?entry.749445582=%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8&entry.2005992401=%E8%B3%87%E5%B7%A5%E7%B3%BB&entry.361766246=10">點我</a></p>
+
+<h3 id="加入組織">加入組織</h3>
+
+<p>這個步驟是助教會做的。你只要確定一段時間之後會發現就好。</p>
+
+<h3 id="開啟通知">開啟通知</h3>
+
+<p><code>Personal Settings</code> &gt; <code>Notifications</code> &gt; <code>Participating</code> &gt; Web[打勾]</p>
+
+<figure>
+    <img src="/img/guide/open-github-notification.png"/> 
+</figure>
+
+
+<h3 id="申請作業0-熟悉環境">申請作業0，熟悉環境</h3>
+
+<p>首先要拿取作業的密碼。</p>
+</article>
+
+      
+<div class="book-footer justify-between">
+  
+  <div>
+    
+    <a href="https://github.com/alex-shpak/hugo-book/commit/2a7eafb4e01138e6417b78e289ed3415789bd127" title='Last modified Sep 3, 2019 by Ian Chen' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" alt="Changed" /> Sep 3, 2019
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/guide.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" alt="Edit" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-3 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#課程導覽">課程導覽</a>
+<ul>
+<li>
+<ul>
+<li><a href="#介紹">介紹</a>
+<ul>
+<li>
+<ul>
+<li><a href="#github-網站的穩定性比-e3-高">GitHub 網站的穩定性比 E3 高</a></li>
+<li><a href="#github-當作你的遠端備份">GitHub 當作你的遠端備份</a></li>
+<li><a href="#強迫各位使用版本控管">強迫各位使用版本控管</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#組織導覽">組織導覽</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#加入流程">加入流程</a>
+<ul>
+<li>
+<ul>
+<li><a href="#辦-github-帳號">辦 GitHub 帳號</a></li>
+<li><a href="#填表單">填表單</a></li>
+<li><a href="#加入組織">加入組織</a></li>
+<li><a href="#開啟通知">開啟通知</a></li>
+<li><a href="#申請作業0-熟悉環境">申請作業0，熟悉環境</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+  
+</body>
+
+</html>

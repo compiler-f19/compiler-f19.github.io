@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Compiler Design</title>
+    <link>/docs/</link>
+    <description>Recent content in Docs on Compiler Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jun 2019 23:30:31 +0800</lastBuildDate>
+    
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syllabus</title>
+      <link>/docs/syllabus/</link>
+      <pubDate>Mon, 17 Jun 2019 23:30:31 +0800</pubDate>
+      
+      <guid>/docs/syllabus/</guid>
+      <description>Overview This course is intended to explore the principal ideas and techniques of compiler construction. Topics include lexical analysis, syntax analysis including LL and LR parsers, type checking, run-time environments, symbol tables, code generation, and compiler-construction tools.
+This course aims to give you a solid foundation in the theory of compiler construction as well as the experience of building a compiler. Much of what you have learned about algorithms and data structures will come to bear as you study and implement the various components of a compiler.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/guide/</guid>
+      <description>課程導覽  介紹 組織導覽 加入流程  介紹 我們在這學期做了一個新嘗試，將作業的撰寫、繳交與 Git 結合，並將課程網站放上 GitHub 上使用，目的是提高各位的修課體驗，並嘗試與現今資訊世界的做事流程接軌。
+ 如果有怎麼問題的話，也請各位不要害怕，到討論區發問，你是修課生，你會有的問題其他學生也會有，幫助你自己的同時也是在幫助其他同學，也可以讓授課老師知道課程有什麼事情需要調整。 我們做的改動相較過去帶來不少好處，在以下列出幾點讓大家更能理解這些背後的原因。
+ GitHub 網站的穩定性比 E3 高 身為交大的學生可能體驗過在作業死線來臨前 1 分鐘繳交作業，e3 直接直接死掉不回應的情況，或是在期末考週學校 E3 伺服器壞掉讓各位無法瀏覽。我們把課程的網站跟作業繳交直接託管在 GitHub 這種國際型企業上能大幅提升網站穩定性，讓大家能隨時瀏覽相關內容。我們也會利用 GitHub 提供的網站紀錄判斷是否有因為伺服器下線讓作業無法繳交的情況，直接延長死線的時間。
+GitHub 當作你的遠端備份 你只需要一個指令就能將程式碼放上 GitHub，讓你能很簡單的備份自己的作業，降低誤刪自己作業檔案的風險。
+強迫各位使用版本控管 或許你各位上大學唸資工從來沒聽過版本控管，或是單純沒機會使用。沒關係，這堂課程會讓你最低限度透過 Git 來練習版本控管，你可以拿來這個東西來輔助自己的未來的專案開發流程。 可能一開始用 Git 會有點不方便，甚至多餘，但你都已經繳學費來學習了，不妨多花點新力來學習一些可以輔助你工作的工具吧！
+組織導覽 我們把這個課程中所有內容都放在一個組織下: compiler-f19
++ compiler-f19 —— 課程開的 GitHub Organization + Discussion —— 討論版 + Compiler-f19 —— 課程內容 + Compiler-f19-private —— 不公開的教學內容  這是我們所開放，修課生必須要知道的 Repo (Repository)。 而 Compiler-f19，Compiler-f19-private 兩個 Repo 的內容有什麼差別？後者的內容屬於修課生才能擁有的內容，比如：每次作業的邀請代碼、考古題連結、整理好的某些筆記內容、考試的答案解析。必須要申請加入組織才有權限瀏覽。</description>
+    </item>
+    
+  </channel>
+</rss>
