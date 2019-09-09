@@ -36,5 +36,14 @@ This course aims to give you a solid foundation in the theory of compiler constr
 + compiler-f19 —— 課程開的 GitHub Organization + Discussion —— 討論版 + Compiler-f19-private —— 修課生的專屬內容  Compiler-f19-private 是於修課生才能擁有的內容，比如：每次作業的邀請代碼、考古題連結、整理好的某些筆記內容（助教如果還有時間會做喇&amp;hellip;）、考試的答案解析。同學必須要申請加入組織才有權限瀏覽。</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://compiler-f19.github.io/docs/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compiler-f19.github.io/docs/schedule/</guid>
+      <description> Week by week schedule    Week Lecture Note     1 Course Introduction &amp;amp; Overview Lec0  / Lec1    2 Lexical Analysis I Lec2    3 Lexical Analysis II / Lex - The Lexical-Analyzer Generator Lec3  / Lec4    4 Syntax Analysis: Context-Free Grammar Lec5    5 Syntax Analysis: Top-Down and Buttom-Up Parsing Lec6    6 Syntax Analysis: Top-Down and Buttom-Up Parsing    7 Syntax Analysis: More LR Parsing / Yacc - The Parser Generator Lec7  / Lec8    8 Syntax-Directed Translation Lec9    9 Midterm Exam    10 Syntax-Directed Translation    11 Intermediate-Code Generation Lec10    12 Intermediate-Code Generation    13 Intermediate-Code Generation / Run-Time Environment Lec11    14 Run-Time Environment    15 Code Generation Lec12    16 Control-Flow Analysis and Optimizations Lec13    17 Final Exam     </description>
+    </item>
+    
   </channel>
 </rss>
