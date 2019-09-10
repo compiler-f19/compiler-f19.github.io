@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Introduction to Compiler Design</title>
+    <title>Home on Introduction to Compiler Design</title>
     <link>https://compiler-f19.github.io/</link>
-    <description>Recent content in Introduction on Introduction to Compiler Design</description>
+    <description>Recent content in Home on Introduction to Compiler Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,13 +11,22 @@
     
     
     <item>
-      <title>Syllabus</title>
+      <title>General information</title>
       <link>https://compiler-f19.github.io/docs/syllabus/</link>
       <pubDate>Mon, 17 Jun 2019 23:30:31 +0800</pubDate>
       
       <guid>https://compiler-f19.github.io/docs/syllabus/</guid>
       <description>Overview This course is intended to explore the principal ideas and techniques of compiler construction. Topics include lexical analysis, syntax analysis including LL and LR parsers, type checking, run-time environments, symbol tables, code generation, and compiler-construction tools.
 This course aims to give you a solid foundation in the theory of compiler construction as well as the experience of building a compiler. Much of what you have learned about algorithms and data structures will come to bear as you study and implement the various components of a compiler.</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://compiler-f19.github.io/docs/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compiler-f19.github.io/docs/schedule/</guid>
+      <description> Week by week schedule    Week Lecture Note     1 Course Introduction &amp;amp; Overview Lec0  / Lec1    2 Lexical Analysis I Lec2    3 Lexical Analysis II / Lex - The Lexical-Analyzer Generator Lec3  / Lec4    4 Syntax Analysis: Context-Free Grammar Lec5    5 Syntax Analysis: Top-Down and Buttom-Up Parsing Lec6    6 Syntax Analysis: Top-Down and Buttom-Up Parsing    7 Syntax Analysis: More LR Parsing / Yacc - The Parser Generator Lec7  / Lec8    8 Syntax-Directed Translation Lec9    9 Midterm Exam    10 Syntax-Directed Translation    11 Intermediate-Code Generation Lec10    12 Intermediate-Code Generation    13 Intermediate-Code Generation / Run-Time Environment Lec11    14 Run-Time Environment    15 Code Generation Lec12    16 Control-Flow Analysis and Optimizations Lec13    17 Final Exam     </description>
     </item>
     
     <item>
@@ -34,15 +43,6 @@ This course aims to give you a solid foundation in the theory of compiler constr
 3. 強迫各位使用版本控管 或許各位上大學唸資工從來沒聽過版本控管，或只是單純沒機會使用。沒關係，這堂課會讓你透過使用最低限度的 Git 來練習版本控管。甚至運用 Git 輔助自己未來的專案開發流程。 可能一開始用 Git 會有些不方便，甚至看起來有點多餘。但你既然都已經繳學費來學習，不妨多花點心力學會一些可以輔助你工作的工具吧！
 組織導覽 我們把這個課程中所有內容都放在一個Github組織下: compiler-f19，而這個組織中會包含兩個所有修課生會使用到的 Repo (Repository)。
 + compiler-f19 —— 課程開的 GitHub Organization + Discussion —— 討論版 + Compiler-f19-private —— 修課生的專屬內容  Compiler-f19-private 是於修課生才能擁有的內容，比如：每次作業的邀請代碼、考古題連結、整理好的某些筆記內容（助教如果還有時間會做喇&amp;hellip;）、考試的答案解析。同學必須要申請加入組織才有權限瀏覽。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://compiler-f19.github.io/docs/schedule/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compiler-f19.github.io/docs/schedule/</guid>
-      <description> Week by week schedule    Week Lecture Note     1 Course Introduction &amp;amp; Overview Lec0  / Lec1    2 Lexical Analysis I Lec2    3 Lexical Analysis II / Lex - The Lexical-Analyzer Generator Lec3  / Lec4    4 Syntax Analysis: Context-Free Grammar Lec5    5 Syntax Analysis: Top-Down and Buttom-Up Parsing Lec6    6 Syntax Analysis: Top-Down and Buttom-Up Parsing    7 Syntax Analysis: More LR Parsing / Yacc - The Parser Generator Lec7  / Lec8    8 Syntax-Directed Translation Lec9    9 Midterm Exam    10 Syntax-Directed Translation    11 Intermediate-Code Generation Lec10    12 Intermediate-Code Generation    13 Intermediate-Code Generation / Run-Time Environment Lec11    14 Run-Time Environment    15 Code Generation Lec12    16 Control-Flow Analysis and Optimizations Lec13    17 Final Exam     </description>
     </item>
     
   </channel>
