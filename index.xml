@@ -46,5 +46,17 @@ This course aims to give you a solid foundation in the theory of compiler constr
 + compiler-f19 —— 課程開的 GitHub Organization + Discussion —— 討論版 + Compiler-f19-private —— 修課生的專屬內容  Compiler-f19-private 是於修課生才能擁有的內容，比如：每次作業的邀請代碼、考古題連結、整理好的某些筆記內容（助教如果還有時間會做喇&amp;hellip;）、考試的答案解析。同學必須要申請加入組織才有權限瀏覽。</description>
     </item>
     
+    <item>
+      <title>calendar</title>
+      <link>https://compiler-f19.github.io/docs/calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compiler-f19.github.io/docs/calendar/</guid>
+      <description>Simple tutorial to calendar integration Integration with Google Calendar is a neccessary step toward better course experience. So we did that for you, too.
+In order to keep this calendar effective. Simpilicity and Efficiency would be our two priorities. Therefore, We would only schedule important things (e.g. deadlines and midterms ) into this calendar and make them concise.
+Subscribe our course schedule in Google Calendar now.
+Subscribe to our Google Calendar Click the button +Google Calendarin the bottom-right corner.</description>
+    </item>
+    
   </channel>
 </rss>
