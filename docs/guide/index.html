@@ -7,7 +7,7 @@
 <title>Guide | Introduction to Compiler Design</title>
 
 
-<link rel="stylesheet" href="/book.min.41a3a1dc28f3c7548bad2765de8728b6d025a6d4550b52c05a83363d9421a412.css" integrity="sha256-QaOh3Cjzx1SLrSdl3ocottAlptRVC1LAWoM2PZQhpBI=">
+<link rel="stylesheet" href="/book.min.e15773c0b17ce8577777e29de4a7e7bc38e04a7df3537e1ffd6ed189cc85f05e.css" integrity="sha256-4VdzwLF86Fd3d&#43;Kd5KfnvDjgSn3zU34f/W7RicyF8F4=">
 
 
 
@@ -64,7 +64,7 @@ https://github.com/alex-shpak/hugo-book
 <li><a href="/docs/syllabus/">General information</a></li>
 <li><a href="/docs/calendar/">Calendar</a></li>
 <li><a href="/docs/schedule/">Schedule &amp; lecture notes</a></li>
-<li><a href="/docs/guide/">GitHub tutorial</a><br /></li>
+<li><a href="/docs/guide/">GitHub tutorial</a></li>
 </ul>
 
 
@@ -97,114 +97,77 @@ https://github.com/alex-shpak/hugo-book
 </header>
 
       
-<article class="markdown">
-
-<h1 id="課程導覽">課程導覽</h1>
-
+<article class="markdown"><h1 id="heading">課程導覽</h1>
 <ul>
-<li><a href="#介紹">介紹</a></li>
-<li><a href="#組織導覽">組織導覽</a></li>
-<li><a href="#加入流程">加入流程</a></li>
+<li><a href="#%E4%BB%8B%E7%B4%B9">介紹</a></li>
+<li><a href="#%E7%B5%84%E7%B9%94%E5%B0%8E%E8%A6%BD">組織導覽</a></li>
+<li><a href="#%E5%8A%A0%E5%85%A5%E6%B5%81%E7%A8%8B">加入流程</a></li>
 </ul>
-
-<h2 id="介紹">介紹</h2>
-
+<h2 id="heading-1">介紹</h2>
 <p>我們在這學期做了一個新嘗試，將作業的撰寫、繳交與 Git 結合，並將課程網站放上 GitHub ，目的是提高各位的修課體驗，並嘗試與現今資訊世界接軌。</p>
-
 <blockquote>
 <p>如果有什麼問題，請各位不要害怕到 <a target="_blank" href="https://github.com/compiler-f19/Discussion/">討論區</a> 發問。你是修課生，你有的問題其他學生也一定會有，幫助你自己的同時也是在幫助其他同學，同時還能讓教授知道課程有什麼問題需要調整。</p>
 </blockquote>
-
 <p>這學期將課成內容交由 GitHub 代管，作業使用 Git 繳交能帶來許多好處，以下列出幾點讓大家能稍微理解理解。</p>
-
-<h3 id="1-github-網站的穩定性比-e3-高">1. GitHub 網站的穩定性比 E3 高</h3>
-
+<h3 id="1-github--e3-">1. GitHub 網站的穩定性比 E3 高</h3>
 <p>身為交大的學生可能體驗過在作業死線來臨前 1 分鐘繳交作業，e3 直接直接死掉不回應，或是在期末考週學校 E3 伺服器壞掉各位無法瀏覽的慘況。把課程的網站跟作業繳交 托管到 GitHub 這類擁有多主機的跨國公司能大幅提升網站穩定性，讓大家能隨時瀏覽相關內容。同時，我們也可以利用 GitHub 提供的 <a target="_blank" href="https://www.githubstatus.com/">伺服器紀錄</a> 判斷是否有因為伺服器下線讓作業無法繳交的情況，斟酌延後作業死線。</p>
-
-<h3 id="2-github-當作你的遠端備份">2. GitHub 當作你的遠端備份</h3>
-
+<h3 id="2-github-">2. GitHub 當作你的遠端備份</h3>
 <p>你只需要一個指令就能將程式碼放上 GitHub，讓你能很簡單的備份自己的作業，降低誤刪自己作業檔案的風險。</p>
-
-<h3 id="3-強迫各位使用版本控管">3. 強迫各位使用版本控管</h3>
-
+<h3 id="3-">3. 強迫各位使用版本控管</h3>
 <p>或許各位上大學唸資工從來沒聽過版本控管，或只是單純沒機會使用。沒關係，這堂課會讓你透過使用最低限度的 Git 來練習版本控管。甚至運用 Git 輔助自己未來的專案開發流程。
 可能一開始用 Git 會有些不方便，甚至看起來有點多餘。但你既然都已經繳學費來學習，不妨多花點心力學會一些可以輔助你工作的工具吧！</p>
-
-<h3 id="組織導覽">組織導覽</h3>
-
+<h3 id="heading-2">組織導覽</h3>
 <p>我們把這個課程中所有內容都放在一個Github組織下: <a target="_blank" href="https://github.com/compiler-f19">compiler-f19</a>，而這個組織中會包含兩個所有修課生會使用到的 Repo (Repository)。</p>
-
-<pre><code class="language-text">+ compiler-f19              ——  課程開的 GitHub Organization
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">+ compiler-f19              ——  課程開的 GitHub Organization
     + Discussion            ——  討論版
     + Compiler-f19-private  ——  修課生的專屬內容
-</code></pre>
-
-<p><code>Compiler-f19-private</code> 是於修課生才能擁有的內容，比如：每次作業的邀請代碼、考古題連結、整理好的某些筆記內容（助教如果還有時間會做喇&hellip;）、考試的答案解析。同學必須要申請加入組織才有權限瀏覽。</p>
-
-<h3 id="各版連結">各版連結</h3>
-
+</code></pre></div><p><code>Compiler-f19-private</code> 是於修課生才能擁有的內容，比如：每次作業的邀請代碼、考古題連結、整理好的某些筆記內容（助教如果還有時間會做喇&hellip;）、考試的答案解析。同學必須要申請加入組織才有權限瀏覽。</p>
+<h3 id="heading-3">各版連結</h3>
 <p>除了 <code>Discussion</code> 外我們還有一個簡單的<a target="_blank" href="https://gitter.im/compiler-f19/Discussion">聊天室</a>，提供同學用較輕便的方式進行對話，在上面問問題可以直接 tag 助教，我們也會收到通知的。</p>
-
 <ul>
 <li>compiler-f19 <a target="_blank" href="https://github.com/compiler-f19"> 連結</a>
-
 <ul>
-<li>Discussion <a target="_blank" href="https://github.com/compiler-f19/Discussion"> 連結</a></li>
+<li>Discussion <a target="_blank" href="https://github.com/compiler-f19/Discussion"> 連結</a>
+<ul>
 <li>聊天室 <a target="_blank" href="https://gitter.im/compiler-f19/Discussion"> 連結</a></li>
-<li>Comopiler-f19-private <a target="_blank" href="https://github.com/compiler-f19/Compiler-f19-private"> 連結</a></li>
-</ul></li>
 </ul>
-
-<h2 id="加入流程">加入流程</h2>
-
-<h3 id="註冊-github-帳號">註冊 GitHub 帳號</h3>
-
+</li>
+<li>Comopiler-f19-private <a target="_blank" href="https://github.com/compiler-f19/Compiler-f19-private"> 連結</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="heading-4">加入流程</h2>
+<h3 id="-github-">註冊 GitHub 帳號</h3>
 <p>請注意，你只是在 GitHub 上註冊一個代表你個人的帳號，並且暫時加入我們的課程組織，在這之後的漫漫開發生涯中一定還會使用到這個帳號，所以會一定程度的代表你個人，建議仔細思考好帳號的名稱。
 比如說 <code>nctuGreatAgain</code>, <code>UCMaoChung5566</code>, <code>dutyForOurCountry</code> 都是不推薦的名稱。</p>
-
 <blockquote>
 <p>若已有Github帳號的同學可以略過這步驟。</p>
 </blockquote>
-
 <p><a href="https://github.com/join" target="_blank"><figure>
     <img src="/img/guide/join-github.png" height="150"/> 
 </figure>
 </a></p>
-
 <p>申請 GitHub 帳號連結： <a href="https://github.com/join" target="_blank">點我</a></p>
-
-<h3 id="填表單">填表單</h3>
-
+<h3 id="heading-5">填表單</h3>
 <p>請在我們的 Google 表單中填上你的資料 (<strong>必須要登入</strong>)，讓我們能夠將各位同學的 GitHub 帳號跟真實身份關聯在一起，在助教收到表單並確認為修課生後，會將各位填入的 Github 帳號加入組織，而 GitHub 網站會依此發出邀請信到信箱中。當各位收到信並確認接受後就算正式加入這堂課程了。👍</p>
-
 <blockquote>
 <p>加退選期限過後會再用新的修課名單來更新組織裡的學生，不幸沒選上卻想旁聽且留在 Github 組織內的同學請知會老師與助教一聲。</p>
 </blockquote>
-
 <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdb_dIug9nvqLnEnso5gETCpXchs7yaxA4fQWCebWTKahP1CA/viewform?entry.749445582=%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8&entry.2005992401=%E8%B3%87%E5%B7%A5%E7%B3%BB&entry.361766246=10"><figure>
     <img src="/img/guide/apply-google-form.png" height="150"/> 
 </figure>
 </a></p>
-
 <p>表單的 Google 連結：<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdb_dIug9nvqLnEnso5gETCpXchs7yaxA4fQWCebWTKahP1CA/viewform?entry.749445582=%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8&entry.2005992401=%E8%B3%87%E5%B7%A5%E7%B3%BB&entry.361766246=10">點我</a></p>
-
-<h3 id="加入組織">加入組織</h3>
-
+<h3 id="heading-6">加入組織</h3>
 <p>這個步驟是助教會做的，你只要上 Github 網站確認你有被加入組織即可。助教會在（）公告已經將哪些同學加入組織中，若你發現助教已經將你加入組織而你的 Github 帳號並未顯示你已被加入組織，請來信詢問助教。</p>
-
-<h3 id="開啟通知">開啟通知</h3>
-
+<h3 id="heading-7">開啟通知</h3>
 <p>開啟通知後在你參與的 Repo 下有任何改動都會在 Github 網站通知你。</p>
-
 <p><code>Personal Settings</code> &gt; <code>Notifications</code> &gt; <code>Participating</code> &gt; Web[打勾]</p>
-
 <figure>
     <img src="/img/guide/open-github-notification.png"/> 
 </figure>
 
-
-<h3 id="申請-hw0-熟悉環境">申請 HW0，熟悉環境</h3>
-
+<h3 id="-hw0">申請 HW0，熟悉環境</h3>
 <p>首先點擊 <a href="https://github.com/compiler-f19/Compiler-f19-private/tree/master/Homework">https://github.com/compiler-f19/Compiler-f19-private/tree/master/Homework</a> 並且點擊作業的邀請連結，若你發現點進網站後沒有正常顯示網站，可能是你沒有登入 GitHub 或是你還沒被加入組織中，請登入 GitHub 或是等待加入組織後再次嘗試。</p>
 </article>
 
@@ -230,27 +193,26 @@ https://github.com/alex-shpak/hugo-book
 
   <aside class="book-toc level-3 fixed">
     <nav id="TableOfContents">
-<ul>
-<li><a href="#課程導覽">課程導覽</a>
-<ul>
-<li><a href="#介紹">介紹</a>
-<ul>
-<li><a href="#1-github-網站的穩定性比-e3-高">1. GitHub 網站的穩定性比 E3 高</a></li>
-<li><a href="#2-github-當作你的遠端備份">2. GitHub 當作你的遠端備份</a></li>
-<li><a href="#3-強迫各位使用版本控管">3. 強迫各位使用版本控管</a></li>
-<li><a href="#組織導覽">組織導覽</a></li>
-<li><a href="#各版連結">各版連結</a></li>
-</ul></li>
-<li><a href="#加入流程">加入流程</a>
-<ul>
-<li><a href="#註冊-github-帳號">註冊 GitHub 帳號</a></li>
-<li><a href="#填表單">填表單</a></li>
-<li><a href="#加入組織">加入組織</a></li>
-<li><a href="#開啟通知">開啟通知</a></li>
-<li><a href="#申請-hw0-熟悉環境">申請 HW0，熟悉環境</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#heading-1">介紹</a>
+      <ul>
+        <li><a href="#1-github--e3-">1. GitHub 網站的穩定性比 E3 高</a></li>
+        <li><a href="#2-github-">2. GitHub 當作你的遠端備份</a></li>
+        <li><a href="#3-">3. 強迫各位使用版本控管</a></li>
+        <li><a href="#heading-2">組織導覽</a></li>
+        <li><a href="#heading-3">各版連結</a></li>
+      </ul>
+    </li>
+    <li><a href="#heading-4">加入流程</a>
+      <ul>
+        <li><a href="#-github-">註冊 GitHub 帳號</a></li>
+        <li><a href="#heading-5">填表單</a></li>
+        <li><a href="#heading-6">加入組織</a></li>
+        <li><a href="#heading-7">開啟通知</a></li>
+        <li><a href="#-hw0">申請 HW0，熟悉環境</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </aside>
 
